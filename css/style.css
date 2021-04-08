@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+body{
+    background: #E5E5E5;
+}
+.conteiner{
+    display:flex;
+    background: #fff;
+    height: 371px;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+}
+.service{   
+    width: 300px;
+    height: 161px;
+    margin:20px;
+}
+.icon_1{
+    background:  url("../img/tablet.png") center center no-repeat;
+}
+.icon_1:hover{
+    background-image: url("../img/tablet_white.png");
+}
+
+.icon_2{
+    background:  url("../img/cog.png") center center no-repeat;
+}
+.icon_2:hover{
+    background-image: url("../img/cog_white.png");
+}
+.icon_3{
+    background:  url("../img/dashboard.png") center center no-repeat;
+}
+.icon_3:hover{
+    background-image: url("../img/dashboard_white.png");
+}
+.icon:hover{
+    background-color: #1275B9;;
+}
+
+.icon{
+    border: 1px solid #1275B9;
+    border-radius: 32px;
+    height: 64px;
+    width: 64px;
+    margin: 0 auto;
+    transition: all .3s;
+}
+.service h2{
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 15px;
+}
+.service p{
+    font-family:"Source Sans Pro",sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #9D9D9D;
+    margin-top: 10px;
+}
+
